@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Daniel John</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icon -->
+    <link rel="icon" href="assets/danIcon.png">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body onload="load()">
+
+    <!-- Loader -->
+    <div id="loaderDiv">
+      <img src="assets/dan.png" id="loaderImg" alt="Loading...">
+    </div>
+
+    <!-- Navbar -->
+    <section id="header">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark px-4">
+        <a class="navbar-brand" href="#">Daniel John</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarLinks" aria-controls="navbarLinks"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarLinks">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-active nav-link" href="#">
+                Home 
+                <i class="fas fa-home"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                Projects 
+                <i class="fas fa-project-diagram"></i>
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="">
+                Contact 
+                <i class="far fa-address-card"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <section id="content">
+      <h2 class="header">Welcome to my Personal Website!</h2>
+      <div id="carousel-home" class="carousel carousel-dark slide" data-bs-interval="false" data-bs-ride="false">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carousel-home" data-bs-slide-to="0" aria-label="Slide 1" class="active"></li>
+          <li data-bs-target="#carousel-home" data-bs-slide-to="1" aria-label="Slide 1"></li>
+          <li data-bs-target="#carousel-home" data-bs-slide-to="2" aria-label="Slide 1"></li>
+        </ol>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <!-- Introduction -->
+            <section id="introduction">
+              <div>
+                <h3 class="sub-header">Who am I?</h3>
+                <p>
+                  I'm Daniel, a computer science graduate student with a passion for creating; involving both the frontend and backend.
+                  <br><br>
+                  I am currently searching for opportunities to build upon my skillset, while I obtain and practice new skills with the <a href="">projects</a> I work on in my spare time.
+                </p>
+              </div>
+            </section>
+          </div>
+
+          <div class="carousel-item">
+            <section id="education">
+              <h3 class="sub-header">My Education</h3>
+              <p>
+                I have graduated from the University of Auckland, with a Bachelors Degree in Computer Science and a cumulative GPA of 4.92.<br>
+                <br>
+                In my first year I took an accelerated compsci course, since I had prior experience in high school. I performed well, and felt prepared in taking stage two papers early. I also included a number of non-compulsory mathematics papers to feel confident in stage two calculus, and stage one physics and statistics.<br>
+                <br>
+                These are four academic awards I recieved throughout my time spent at university.
+              </p>
+              <div class="row">
+                <div class="col-lg-3">
+                  <h4>Award title 1</h4>
+                  <p><em>Award type</em><br>
+                    Course Summary
+                  </p>
+                </div>
+
+                <div class="col-lg-3">
+                  <h4>Award title 2</h4>
+                  <p><em>Award type</em><br>
+                    Course Summary
+                  </p>
+                </div>
+
+                <div class="col-lg-3">
+                  <h4>Award title 3</h4>
+                  <p><em>Award type</em><br>
+                    Course Summary
+                  </p>
+                </div>
+
+                <div class="col-lg-3">
+                  <h4>Award title 4</h4>
+                  <p><em>Award type</em><br>
+                    Course Summary
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="carousel-item">
+            ghkj
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" type="button" data-bs-target="#carousel-home"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" type="button" data-bs-target="#carousel-home"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- JavaScript -->
+    <script src="index.js" charset="utf-8"></script>
+
+    <!-- FontAwesome Icons -->
+    <script src="https://kit.fontawesome.com/e371537ae4.js" crossorigin="anonymous"></script>
+  </body>
+</html>
